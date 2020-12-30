@@ -1,0 +1,304 @@
+/* Default css */
+
+*{
+        margin: 0;
+        padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%; 
+    /* https://i.ya-webdesign.com/images/google-logo-white-png-1.png */
+    
+}
+
+.fixed-width{
+    width: 1050px;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+
+/* Headerr css start */
+
+.header{
+      background-color: #1abc9c;  
+      position: fixed;
+      padding: 0px 210px; 
+}
+.header-left{
+   float: left;
+   width: 30%;
+    
+}
+.header-left img{
+    width: 214px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    list-style: none;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-right: -5px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 72px;
+    border-right: 1px solid white;
+    transition: 0.7s;
+}
+.header-right ul li a:hover{
+    background-color: #16a085;
+    transition: .8s;
+}
+
+.header-right ul li a:first-child{
+    /* border: 1px solid white; */
+    
+}
+
+/* banner section css */
+/* banner image link=https://www.acetechus.com/wp-content/uploads/slider4/image-slider-with-thumbnail4.jpeg */
+.banner{
+    background-image: url(./img/image-slider-with-thumbnail4.jpeg);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.banner-container{
+}
+.banner-container h1{
+  
+    background-color: rgba(0,0,0,.4);
+    display:inline block;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 15px 43px;
+    font-style: italic;
+}
+
+    
+.banner-container p{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 80px;
+    color: turquoise;
+}
+
+/* banner css end */
+
+
+/* about section start */
+.Title{
+    margin-top: 40px;
+}
+.Title h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-style: italic;
+}
+.Title p{
+    max-width: 700px;
+    margin: auto ;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Title p b{
+    font-size: 25px;
+    color: teal;
+}
+
+/* services css start */
+
+.service{
+    margin-top: 40px;
+}
+.services-item{
+    float:left;
+    width: 31.33%;
+    padding:20px 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.services-item span{
+
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #1abc9c;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    line-height: 60px;
+    border-radius: 5px;
+}
+
+.services-item h3{
+
+    margin: 20px 0px;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    
+}
+
+.services-item h3 a {
+    text-decoration: none;
+    color: rgb(22, 241, 205);
+}
+
+/* blog section start */
+
+.About-me{
+    font-style: italic;
+    color: seagreen;
+    font-size:35px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.blog{}
+.blog-left-content{
+    float: left;
+    width: 70%;
+}
+.blog-right-notice{
+    float: right;
+    width: 25%;
+    text-decoration: none;
+}
+.blog-item p{
+    font-size: 20px;
+}
+.blog-item img {
+    height: 230px;
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* blog notification */
+
+.blog-right-notice h2 {
+
+    font-size: 33px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 6px;
+    list-style: none;
+    border-radius: 9px;
+  
+
+}
+.blog-right-notice h2 a{
+    text-decoration: none;
+    color:black;
+}
+.blog-right-notice ul{
+    list-style: none;
+}
+.blog-right-notice ul li {
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 13px;
+    font-size: 20px;
+    margin-bottom: 12px;
+    border-radius: 11px;
+ 
+}   
+
+.blog-right-notice ul li a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+.blog-right-notice ul li:hover{
+    background:#40739e;
+    color:white;
+    transition: .8s;
+}
+
+.blog-right-notice ul li a:hover{
+    color:white;
+    transition: .6s;
+}
+
+/* blog section end */
+
+/* footer section start */
+.footer{
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+}
+.footer-left{
+    float: left;
+    width: 60%;
+    font-size: 20px;
+
+}
+.footer-right{
+    float: right;
+    width: 40%;
+}
+
+/* social icon */
+
+.Social-icon{
+    text-align: right;
+}
+.Social-icon li{
+    display: inline-block;
+}
+.Social-icon li a{
+    color:white;
+    font-size: 30px;
+
+}
+.Social-icon ul li a:hover{}
+
+
+
+
+
+
+
+
+    
+
+
+
